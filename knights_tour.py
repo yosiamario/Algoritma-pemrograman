@@ -1,21 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════════════╗
-║          KNIGHT'S TOUR PROBLEM — Algoritma Backtracking             ║
-║          Perjalanan Kuda Catur Mengunjungi Semua Kotak              ║
-╚══════════════════════════════════════════════════════════════════════╝
-
-Deskripsi:
-    Kuda catur (knight) harus mengunjungi setiap kotak pada papan NxN
-    TEPAT SATU KALI menggunakan gerakan L-shape khas kuda catur.
-
-Fitur:
-    • Backtracking murni dengan Warnsdorff's Heuristic (smart ordering)
-    • Visualisasi animasi papan real-time di CLI
-    • Penanda urutan kunjungan tiap kotak
-    • Statistik langkah, backtrack, dan waktu eksekusi
-    • Mode: animasi penuh / cepat / multi-start (cari dari semua posisi)
-    • Ekspor solusi ke file .txt
-"""
 
 import time
 import os
